@@ -51,7 +51,7 @@ def enviar_mensajes_thread():
         hora_envio += datetime.timedelta(minutes=2)
 
     estado_var.set("✅ Mensajes programados correctamente.")
-    messagebox.showinfo("Listo", "Todos los mensajes fueron programados.")
+    messagebox.showinfo("Listo", "Todos los mensajes fueron enviados.")
 
 def enviar_mensajes():
     hilo = threading.Thread(target=enviar_mensajes_thread)
@@ -60,7 +60,7 @@ def enviar_mensajes():
 # Crear ventana principal
 ventana = tk.Tk()
 ventana.title("📲 Enviar WhatsApp en lote")
-ventana.geometry("600x600")
+ventana.geometry("600x900")
 ventana.resizable(False, False)
 ventana.config(padx=15, pady=15)
 
