@@ -61,7 +61,7 @@ def enviar_mensajes():
 ventana = tk.Tk()
 ventana.title("📲 Enviar WhatsApp en lote")
 ventana.geometry("600x900")
-ventana.resizable(False, False)
+ventana.resizable(False, False) #hola
 ventana.config(padx=15, pady=15)
 
 # --- Frame para el mensaje ---
