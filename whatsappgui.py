@@ -23,7 +23,7 @@ def enviar_mensajes_thread():
         messagebox.showwarning("Error", "Debes escribir un mensaje y cargar números.")
         return
 
-    estado_var.set("📤 Enviando mensajes...")
+    estado_var.set("📤 Enviando mensajessss...")
     ventana.update()
 
     hora_envio = datetime.datetime.now() + datetime.timedelta(minutes=2)
