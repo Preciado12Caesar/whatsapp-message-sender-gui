@@ -3,7 +3,7 @@ from tkinter import filedialog, messagebox, scrolledtext
 import pywhatkit as kit
 import datetime
 import time
-import threading  # ✅ Para evitar que se congele la interfaz
+import threading  
 
 numeros = []
 
@@ -38,7 +38,7 @@ def enviar_mensajes_thread():
                 mensaje,
                 hora,
                 minuto,
-                wait_time=20,
+                wait_time=10,
                 tab_close=True,
                 close_time=3
             )
